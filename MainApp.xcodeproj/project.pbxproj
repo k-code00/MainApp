@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020BB82F2B1109BC00EBBBDB /* FindMyIPLib in Frameworks */ = {isa = PBXBuildFile; productRef = 020BB82E2B1109BC00EBBBDB /* FindMyIPLib */; };
 		027066B42B0E782900CB8640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027066B32B0E782900CB8640 /* ContentView.swift */; };
 		027066B62B0E782B00CB8640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027066B52B0E782B00CB8640 /* Assets.xcassets */; };
 		027066B92B0E782B00CB8640 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027066B82B0E782B00CB8640 /* Preview Assets.xcassets */; };
 		027066C32B0E782C00CB8640 /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027066C22B0E782C00CB8640 /* MainAppTests.swift */; };
 		027066CD2B0E782C00CB8640 /* MainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027066CC2B0E782C00CB8640 /* MainAppUITests.swift */; };
 		027066CF2B0E782C00CB8640 /* MainAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027066CE2B0E782C00CB8640 /* MainAppUITestsLaunchTests.swift */; };
-		029A1C6F2B10EAF900A0DEC1 /* FindMyIPLib in Frameworks */ = {isa = PBXBuildFile; productRef = 029A1C6E2B10EAF900A0DEC1 /* FindMyIPLib */; };
 		029A1C712B10F89400A0DEC1 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A1C702B10F89400A0DEC1 /* MainAppApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,6 @@
 		027066C82B0E782C00CB8640 /* MainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027066CC2B0E782C00CB8640 /* MainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITests.swift; sourceTree = "<group>"; };
 		027066CE2B0E782C00CB8640 /* MainAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		029A1C6A2B10E96B00A0DEC1 /* FindMyIPLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FindMyIPLib; path = ../FindMyIPLib; sourceTree = "<group>"; };
 		029A1C702B10F89400A0DEC1 /* MainAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainAppApp.swift; path = MainApp/MainAppApp.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029A1C6F2B10EAF900A0DEC1 /* FindMyIPLib in Frameworks */,
+				020BB82F2B1109BC00EBBBDB /* FindMyIPLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +76,6 @@
 		027066A52B0E782900CB8640 = {
 			isa = PBXGroup;
 			children = (
-				029A1C6A2B10E96B00A0DEC1 /* FindMyIPLib */,
 				027066B02B0E782900CB8640 /* MainApp */,
 				027066C12B0E782C00CB8640 /* MainAppTests */,
 				027066CB2B0E782C00CB8640 /* MainAppUITests */,
@@ -164,7 +162,7 @@
 			);
 			name = MainApp;
 			packageProductDependencies = (
-				029A1C6E2B10EAF900A0DEC1 /* FindMyIPLib */,
+				020BB82E2B1109BC00EBBBDB /* FindMyIPLib */,
 			);
 			productName = MainApp;
 			productReference = 027066AE2B0E782900CB8640 /* MainApp.app */;
@@ -239,7 +237,7 @@
 			);
 			mainGroup = 027066A52B0E782900CB8640;
 			packageReferences = (
-				027066DB2B0E7F0100CB8640 /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */,
+				020BB82D2B1109BC00EBBBDB /* XCRemoteSwiftPackageReference "FindMyIPLib" */,
 			);
 			productRefGroup = 027066AF2B0E782900CB8640 /* Products */;
 			projectDirPath = "";
@@ -610,9 +608,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		027066DB2B0E7F0100CB8640 /* XCRemoteSwiftPackageReference "FindMyIPLibrary" */ = {
+		020BB82D2B1109BC00EBBBDB /* XCRemoteSwiftPackageReference "FindMyIPLib" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/k-code00/FindMyIPLibrary.git";
+			repositoryURL = "https://github.com/k-code00/FindMyIPLib.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -621,8 +619,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		029A1C6E2B10EAF900A0DEC1 /* FindMyIPLib */ = {
+		020BB82E2B1109BC00EBBBDB /* FindMyIPLib */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 020BB82D2B1109BC00EBBBDB /* XCRemoteSwiftPackageReference "FindMyIPLib" */;
 			productName = FindMyIPLib;
 		};
 /* End XCSwiftPackageProductDependency section */

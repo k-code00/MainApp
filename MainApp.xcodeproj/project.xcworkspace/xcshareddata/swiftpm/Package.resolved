@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "findmyiplibrary",
+      "identity" : "findmyiplib",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/k-code00/FindMyIPLibrary.git",
+      "location" : "https://github.com/k-code00/FindMyIPLib.git",
       "state" : {
         "branch" : "main",
-        "revision" : "562b30d5e1f3e648df12c49b8a3afc6fd8359536"
+        "revision" : "44e569fc5773feb17bb12b28f9f4c2c2ffa14110"
       }
     }
   ],
